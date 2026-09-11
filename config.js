@@ -13,5 +13,5 @@ const CONFIG = {
   roundOptions: [8, 16, 32, 64],
 
   // 시작 화면에서 기본으로 선택되어 있을 강수
-  defaultRound: 32,
+  defaultRound: 64,
 };
