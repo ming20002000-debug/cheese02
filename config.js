@@ -10,8 +10,8 @@ const CONFIG = {
 
   // 시작 화면에서 고를 수 있는 토너먼트 규모입니다.
   // 각 숫자는 "총 참가자 수"이며, 항상 절반은 여돌 / 절반은 남돌에서 뽑습니다.
-  roundOptions: [8, 16, 32],
+  roundOptions: [8, 16, 32, 64],
 
   // 시작 화면에서 기본으로 선택되어 있을 강수
-  defaultRound: 16,
+  defaultRound: 32,
 };
