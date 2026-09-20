@@ -1,6 +1,6 @@
 # 여름 노래 월드컵 (여돌 그룹 vs 남돌 그룹)
 
-여자 아이돌 여름 노래 vs 남자 아이돌 여름 노래로 진행되는 개인용 이상형 월드컵입니다. (v4: 전부 공식 뮤직비디오(MV)로 전면 교체)
+여자 아이돌 여름 노래 vs 남자 아이돌 여름 노래로 진행되는 개인용 이상형 월드컵입니다. (v5: 공식 뮤직비디오 위주 + 사용자 지정 링크로 다수 교체)
 순수 HTML/CSS/JS로만 만들어져 있어서 별도 설치 없이 GitHub Pages에 바로 올릴 수 있습니다.
 
 ## 파일 구성
@@ -34,14 +34,18 @@ script.js    토너먼트 진행 로직 (건드릴 필요 없음)
 ## 현재 들어있는 데이터
 
 - 여돌 32곡, 남돌 32곡, 총 64곡 — 64강까지 진행할 수 있습니다
-- 전부 각 곡의 **공식 뮤직비디오(Official MV)**로 채웠습니다
-- 예외 2곡만 진짜 MV가 없어서 다른 영상으로 대체했습니다: Girl's Day 말해줘요(디지털 싱글이라 MV 자체가 없어서 방송 무대 영상으로 대체), ZEROBASEONE SWEAT(정식 MV 대신 'Special Summer Video'로 발매되어 그 영상을 사용) — `data.js` 주석에 표시되어 있습니다
+- 대부분 각 곡의 **공식 뮤직비디오(Official MV)**로 채웠습니다
+- 예외 4곡은 정식 MV가 아니거나 다른 형식의 영상입니다 (`data.js` 주석에도 표시):
+  - **ZEROBASEONE** — SWEAT: 정식 MV 대신 'Special Summer Video'로 발매되어 그 영상을 사용
+  - **TXT** — Our Summer: 디지털 싱글이라 정식 MV가 없어 소속사 공식 채널의 'selfie ver.' 영상으로 대체
+  - **사자보이즈 (Saja Boys)** — Soda Pop: 사용자 지정 링크로 교체하면서 'Official Lyric Video'(Sony Pictures Animation)로 바뀜, 정식 MV 아님
+  - **SUPER JUNIOR** — Devil: 사용자 지정 링크로 교체하면서 SMTOWN의 'Performance Video'로 바뀜, 정식 MV 아님
 - 뮤직비디오는 그룹의 대표 공식 콘텐츠라 무대 직캠에서 겪었던 국내 재생 차단 문제가 거의 없습니다
 
 ## 설정 바꾸기 (`config.js`)
 
 - `siteTitle`, `siteSubtitle` : 제목/부제목 문구
-- `roundOptions` : 시작 화면에서 고를 수 있는 강수 목록 (기본 8/16/32)
+- `roundOptions` : 시작 화면에서 고를 수 있는 강수 목록 (기본 8/16/32/64)
 - `defaultRound` : 시작 화면에 기본으로 선택되어 있는 강수
 
 ## 대결 매칭 방식
