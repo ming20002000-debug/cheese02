@@ -84,7 +84,7 @@ const CANDIDATES = [
   { id: "m27", name: "ONF", group: "3세대 · 2017.08 데뷔", song: "바람이 분다 (Love Effect)", gender: "male", youtubeId: "Le9kDugaXRQ", start: 0 }, // Official Music Video
   { id: "m28", name: "ZEROBASEONE", group: "5세대 · 2023.07 데뷔", song: "SWEAT", gender: "male", youtubeId: "6J2tyiQ_V6s", start: 0 }, // 이 곡은 정식 MV 대신 'Special Summer Video'로 발매됨 — 예외 4
   { id: "m29", name: "B1A4", group: "2세대 · 2011.04 데뷔", song: "Solo Day", gender: "male", youtubeId: "tBUDRysyuMI", start: 0 }, // MV
-  { id: "m30", name: "B1A4", group: "2세대 · 2011.04 데뷔", song: "Rollin'", gender: "male", youtubeId: "cbBMwrdEIdc", start: 92 }, // MV (Full ver.) — 사용자 지정 링크로 교체 (기존: BOYNEXTDOOR Serenade)
+  { id: "m30", name: "ATEEZ", group: "4세대 · 2018.10 데뷔", song: "Lemon Drop", gender: "male", youtubeId: "H4H99b1CjPU", start: 103 }, // Official MV — 사용자 지정 링크로 교체 (기존: B1A4 Rollin')
   { id: "m31", name: "ONEUS", group: "4세대 · 2019.01 데뷔", song: "Life is Beautiful", gender: "male", youtubeId: "8FtD9nybAlo", start: 0 }, // MV
   { id: "m32", name: "TWS", group: "5세대 · 2024.03 데뷔", song: "내가 S면 넌 나의 N이 되어줘 (Plot Twist)", gender: "male", youtubeId: "NRgZuuwD2WY", start: 0 }, // Official MV
 ];
